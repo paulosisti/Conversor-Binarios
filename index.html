@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">
+    <title>Bin2You</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Bin<span>2</span>You</h1>
+            <h2>Conversor de Base Binária</h2>
+            <form>
+                <label for="input1">Binário:</label>
+                <input type="text" id="input1" placeholder="Insira um número binário"/>
+                <label for="output1">Decimal:</label>
+                <input type="text" id="output1" readonly/>
+                <label for="output2">Octal:</label>
+                <input type="text" id="output2" readonly/>
+                <label for="output3">Hexadecimal:</label>
+                <input type="text" id="output3" readonly/>
+                <input id="btn" type="button" value="CONVERTER" onclick="convert()">
+            </form>
+        </div>
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+</html>
